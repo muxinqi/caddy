@@ -22,6 +22,6 @@ jobs:
         with:
           push: true
           tags: |
-            muxinqi/caddy:latest
-            muxinqi/caddy:2
-            muxinqi/caddy:${{ github.sha }}
+            ghcr.io/muxinqi/caddy:latest
+            ghcr.io/muxinqi/caddy:2
+            ghcr.io/muxinqi/caddy:${{ github.sha }}
